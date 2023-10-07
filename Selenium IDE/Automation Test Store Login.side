@@ -1,0 +1,174 @@
+{
+  "id": "4eaa240e-89c6-4632-9376-db25be0aa7aa",
+  "version": "2.0",
+  "name": "Automation Test Store Login",
+  "url": "https://automationteststore.com",
+  "tests": [{
+    "id": "adeb80b8-44c0-4ea4-a4f7-ca5427bfae98",
+    "name": "Login Test",
+    "commands": [{
+      "id": "e1ba458f-7755-49f1-9386-a51f1b2615f1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75116eeb-74d9-4ac3-a5b5-31d6f676c41e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1280x730",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "878b761a-972f-4167-872b-b3e3e04f8902",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login or register",
+      "targets": [
+        ["linkText=Login or register", "linkText"],
+        ["css=#customer_menu_top a", "css:finder"],
+        ["xpath=//a[contains(text(),'Login or register')]", "xpath:link"],
+        ["xpath=//ul[@id='customer_menu_top']/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://automationteststore.com/index.php?rt=account/login')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login or register')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "267b0389-ec77-459e-b2d8-b4588bf25b35",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginFrm_loginname",
+      "targets": [
+        ["id=loginFrm_loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginFrm_loginname", "css:finder"],
+        ["xpath=//input[@id='loginFrm_loginname']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "KonRafal"
+    }, {
+      "id": "b3857999-0eb0-4175-8273-627b334fcf69",
+      "comment": "",
+      "command": "type",
+      "target": "id=loginFrm_password",
+      "targets": [
+        ["id=loginFrm_password", "id"],
+        ["name=password", "name"],
+        ["css=#loginFrm_password", "css:finder"],
+        ["xpath=//input[@id='loginFrm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "n8QSi@43HVSF"
+    }, {
+      "id": "1857ae0c-f250-466e-8df5-5abbb332ea6e",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginFrm_loginname",
+      "targets": [
+        ["id=loginFrm_loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginFrm_loginname", "css:finder"],
+        ["xpath=//input[@id='loginFrm_loginname']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9886cd2-ac7a-4b30-bf6f-da76447215f1",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginFrm_loginname",
+      "targets": [
+        ["id=loginFrm_loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginFrm_loginname", "css:finder"],
+        ["xpath=//input[@id='loginFrm_loginname']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7092260-80cb-40f3-a9fc-5a2c7ca289e9",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginFrm_loginname",
+      "targets": [
+        ["id=loginFrm_loginname", "id"],
+        ["name=loginname", "name"],
+        ["css=#loginFrm_loginname", "css:finder"],
+        ["xpath=//input[@id='loginFrm_loginname']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ef54211-77ac-4735-a8a5-97cecf4d4f3b",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginFrm_password",
+      "targets": [
+        ["id=loginFrm_password", "id"],
+        ["name=password", "name"],
+        ["css=#loginFrm_password", "css:finder"],
+        ["xpath=//input[@id='loginFrm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b693d43-bbc0-430b-bf3e-ed9a05896256",
+      "comment": "",
+      "command": "click",
+      "target": "id=loginFrm_password",
+      "targets": [
+        ["id=loginFrm_password", "id"],
+        ["name=password", "name"],
+        ["css=#loginFrm_password", "css:finder"],
+        ["xpath=//input[@id='loginFrm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93960f4a-1d27-43a8-80a3-cd37bb622f8d",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=loginFrm_password",
+      "targets": [
+        ["id=loginFrm_password", "id"],
+        ["name=password", "name"],
+        ["css=#loginFrm_password", "css:finder"],
+        ["xpath=//input[@id='loginFrm_password']", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28eac113-d1bb-4325-b191-6ae85fdf08e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(7)",
+      "targets": [
+        ["css=.btn:nth-child(7)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='loginFrm']/fieldset/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/form/fieldset/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c478dbd2-0279-4d8e-aece-4e6d24e4a71f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["adeb80b8-44c0-4ea4-a4f7-ca5427bfae98"]
+  }],
+  "urls": ["https://automationteststore.com/"],
+  "plugins": []
+}
